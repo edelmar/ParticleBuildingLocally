@@ -8,18 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		F39751C91C5402EA006F2943 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39751C81C5402EA006F2943 /* AppDelegate.swift */; };
-		F39751CB1C5402EA006F2943 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39751CA1C5402EA006F2943 /* ViewController.swift */; };
 		F39751CD1C5402EA006F2943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39751CC1C5402EA006F2943 /* Assets.xcassets */; };
 		F39751D01C5402EA006F2943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39751CE1C5402EA006F2943 /* Main.storyboard */; };
+		F39751D91C540353006F2943 /* CloneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39751D71C540353006F2943 /* CloneViewController.swift */; };
+		F39751DA1C540353006F2943 /* BuildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39751D81C540353006F2943 /* BuildViewController.swift */; };
+		F39751DC1C540362006F2943 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39751DB1C540362006F2943 /* Extensions.swift */; };
+		F39751E91C540381006F2943 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = F39751DF1C540381006F2943 /* ORSSerialPort.m */; };
+		F39751EA1C540381006F2943 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F39751E11C540381006F2943 /* ORSSerialPortManager.m */; };
+		F39751EB1C540381006F2943 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = F39751E31C540381006F2943 /* ORSSerialBuffer.m */; };
+		F39751EC1C540381006F2943 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F39751E61C540381006F2943 /* ORSSerialRequest.m */; };
+		F39751ED1C540381006F2943 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F39751E81C540381006F2943 /* ORSSerialPacketDescriptor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F39751C51C5402EA006F2943 /* ParticleLocalBuilding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleLocalBuilding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39751C81C5402EA006F2943 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F39751CA1C5402EA006F2943 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F39751CC1C5402EA006F2943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39751CF1C5402EA006F2943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F39751D11C5402EA006F2943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39751D71C540353006F2943 /* CloneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloneViewController.swift; sourceTree = "<group>"; };
+		F39751D81C540353006F2943 /* BuildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildViewController.swift; sourceTree = "<group>"; };
+		F39751DB1C540362006F2943 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F39751DD1C540380006F2943 /* ParticleLocalBuilding-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ParticleLocalBuilding-Bridging-Header.h"; sourceTree = "<group>"; };
+		F39751DE1C540381006F2943 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		F39751DF1C540381006F2943 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		F39751E01C540381006F2943 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		F39751E11C540381006F2943 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		F39751E21C540381006F2943 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
+		F39751E31C540381006F2943 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialBuffer.m; sourceTree = "<group>"; };
+		F39751E41C540381006F2943 /* ParticleLocalBuild-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ParticleLocalBuild-Bridging-Header.h"; sourceTree = "<group>"; };
+		F39751E51C540381006F2943 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		F39751E61C540381006F2943 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+		F39751E71C540381006F2943 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		F39751E81C540381006F2943 /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +59,7 @@
 			children = (
 				F39751C71C5402EA006F2943 /* ParticleLocalBuilding */,
 				F39751C61C5402EA006F2943 /* Products */,
+				F39751EE1C540391006F2943 /* ORSSerialPort */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,12 +75,33 @@
 			isa = PBXGroup;
 			children = (
 				F39751C81C5402EA006F2943 /* AppDelegate.swift */,
-				F39751CA1C5402EA006F2943 /* ViewController.swift */,
+				F39751D71C540353006F2943 /* CloneViewController.swift */,
+				F39751D81C540353006F2943 /* BuildViewController.swift */,
+				F39751DB1C540362006F2943 /* Extensions.swift */,
 				F39751CC1C5402EA006F2943 /* Assets.xcassets */,
 				F39751CE1C5402EA006F2943 /* Main.storyboard */,
 				F39751D11C5402EA006F2943 /* Info.plist */,
 			);
 			path = ParticleLocalBuilding;
+			sourceTree = "<group>";
+		};
+		F39751EE1C540391006F2943 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				F39751DE1C540381006F2943 /* ORSSerialPort.h */,
+				F39751DF1C540381006F2943 /* ORSSerialPort.m */,
+				F39751E01C540381006F2943 /* ORSSerialPortManager.h */,
+				F39751E11C540381006F2943 /* ORSSerialPortManager.m */,
+				F39751E21C540381006F2943 /* ORSSerialBuffer.h */,
+				F39751E31C540381006F2943 /* ORSSerialBuffer.m */,
+				F39751E41C540381006F2943 /* ParticleLocalBuild-Bridging-Header.h */,
+				F39751E51C540381006F2943 /* ORSSerialRequest.h */,
+				F39751E61C540381006F2943 /* ORSSerialRequest.m */,
+				F39751E71C540381006F2943 /* ORSSerialPacketDescriptor.h */,
+				F39751E81C540381006F2943 /* ORSSerialPacketDescriptor.m */,
+				F39751DD1C540380006F2943 /* ParticleLocalBuilding-Bridging-Header.h */,
+			);
+			name = ORSSerialPort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F39751CB1C5402EA006F2943 /* ViewController.swift in Sources */,
+				F39751D91C540353006F2943 /* CloneViewController.swift in Sources */,
+				F39751E91C540381006F2943 /* ORSSerialPort.m in Sources */,
+				F39751EC1C540381006F2943 /* ORSSerialRequest.m in Sources */,
+				F39751DA1C540353006F2943 /* BuildViewController.swift in Sources */,
+				F39751EB1C540381006F2943 /* ORSSerialBuffer.m in Sources */,
+				F39751EA1C540381006F2943 /* ORSSerialPortManager.m in Sources */,
+				F39751ED1C540381006F2943 /* ORSSerialPacketDescriptor.m in Sources */,
 				F39751C91C5402EA006F2943 /* AppDelegate.swift in Sources */,
+				F39751DC1C540362006F2943 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,11 +284,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ParticleLocalBuilding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DelMarSoftwareDevelopment.ParticleLocalBuilding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParticleLocalBuilding-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -246,11 +299,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ParticleLocalBuilding/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.DelMarSoftwareDevelopment.ParticleLocalBuilding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ParticleLocalBuilding-Bridging-Header.h";
 			};
 			name = Release;
 		};
